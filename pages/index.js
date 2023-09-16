@@ -1569,7 +1569,7 @@ const Home = (props) => {
             }
             .home-mobile-menu {
               height: 316px;
-              display: flex;
+              display: none;
               padding: 16px;
             }
             .home-hero {
