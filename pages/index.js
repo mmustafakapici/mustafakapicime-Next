@@ -41,11 +41,6 @@ const Home = (props) => {
           <div data-role="MobileMenu" className="home-mobile-menu">
             <div className="home-nav1">
               <div className="home-container01">
-                <img
-                  alt="image"
-                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  className="home-image"
-                />
                 <div data-role="CloseMobileMenu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon02">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -116,7 +111,7 @@ const Home = (props) => {
           <img
             alt="image"
             src="/external/b%C3%A4%C2%B0yometr%C3%A4%C2%B0k%20d9%20bg-1200w.jpg"
-            className="home-image1"
+            className="home-image"
           />
         </div>
         <div id="prj" className="home-projects">
@@ -573,9 +568,6 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .home-image {
-            height: 2rem;
-          }
           .home-menu-close {
             display: flex;
             align-items: center;
@@ -669,7 +661,7 @@ const Home = (props) => {
           .home-link01:hover {
             border-color: var(--dl-color-gray-black);
           }
-          .home-image1 {
+          .home-image {
             width: 400px;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius8);
@@ -1500,7 +1492,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-image1 {
+            .home-image {
               width: 80%;
             }
             .home-projects {
@@ -1576,7 +1568,8 @@ const Home = (props) => {
               display: flex;
             }
             .home-mobile-menu {
-              display: none;
+              height: 316px;
+              display: flex;
               padding: 16px;
             }
             .home-hero {
