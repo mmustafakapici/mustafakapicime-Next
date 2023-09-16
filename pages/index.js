@@ -1569,7 +1569,14 @@ const Home = (props) => {
             .home-header {
               padding: var(--dl-space-space-unit);
             }
+            .home-nav {
+              display: none;
+            }
+            .home-btn-group {
+              display: flex;
+            }
             .home-mobile-menu {
+              display: none;
               padding: 16px;
             }
             .home-hero {
@@ -1580,6 +1587,12 @@ const Home = (props) => {
             }
             .home-container02 {
               margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-text04 {
+              width: 100%;
+            }
+            .home-text08 {
+              width: 80%;
             }
             .home-btn-group1 {
               flex-direction: column;

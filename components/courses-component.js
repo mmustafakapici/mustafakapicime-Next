@@ -65,6 +65,11 @@ const CoursesComponent = (props) => {
             text-transform: none;
             text-decoration: none;
           }
+          @media (max-width: 479px) {
+            .courses-component-text {
+              font-size: 16px;
+            }
+          }
         `}
       </style>
     </>
