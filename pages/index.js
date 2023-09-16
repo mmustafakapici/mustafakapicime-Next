@@ -1590,9 +1590,11 @@ const Home = (props) => {
             }
             .home-text04 {
               width: 100%;
+              text-align: center;
             }
             .home-text08 {
               width: 80%;
+              text-align: justify;
             }
             .home-btn-group1 {
               flex-direction: column;

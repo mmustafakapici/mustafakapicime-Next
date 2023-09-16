@@ -3,7 +3,9 @@ module.exports = {
     "extend": {
       "colors": {
         "Primary": {},
-        "Success": {},
+        "Success": {
+          "birincil": "#f99901ff"
+        },
         "Gray": {
           "500": "#595959",
           "700": "#999999",
@@ -13,7 +15,14 @@ module.exports = {
         },
         "Danger": {},
         "foreground": "#000000",
-        "background": "#D9D9D9"
+        "background": "#D9D9D9",
+        "Anahat": {
+          "500": "#292929ff",
+          "700": "#999999",
+          "900": "#D9D9D9",
+          "Black": "#000000",
+          "White": "#ffffffff"
+        }
       },
       "spacing": {
         "TwoUnits": "32px",
